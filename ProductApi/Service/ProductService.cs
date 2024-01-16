@@ -8,7 +8,7 @@ namespace ProductApi.Service
 
         public SqlConnection GetConnection()
         {
-            string connectionString = "Server=tcp:sqlserver01001.database.windows.net,1433;Initial Catalog=sqldbapp0100;Persist Security Info=False;User ID=sqlusr;Password=PR1M4V3R42023..;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            string connectionString = "Server=tcp:sqlserver0200.database.windows.net,1433;Initial Catalog=sql0100;Persist Security Info=False;User ID=sqlusr;Password=PR1M4V3R42023..;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
             return new SqlConnection(connectionString);
         }
 
